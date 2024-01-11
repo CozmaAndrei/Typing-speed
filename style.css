@@ -1,0 +1,49 @@
+html {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:steelblue;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    font-size: large;
+    color: black;
+}
+
+.startButton {
+    position: absolute;
+    border-radius: 20px;
+    border: none;
+    width:200px;
+    background-color: white;
+}
+
+.infoContainer {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.displayMessage {
+    color: red;
+    font-size: 30px;
+}
+
+.restartBtn {
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
